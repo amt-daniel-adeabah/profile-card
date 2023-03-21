@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+:root {
+    --background-color: #fff;
+    --color: #c05555;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +11,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--background-color);
 }
 
 .container {
@@ -26,9 +29,9 @@ body {
     position: relative;
     padding: 70px;
     height: auto;
-    margin: 75px;
-    /* border: 1px solid #000000;
-    box-shadow: 0 10px 10px rgba(0, 5, 24, 0.4); */
+    margin: 30px;
+    border: 1px solid var(--color);
+    /* box-shadow: 0 10px 10px rgba(0, 5, 24, 0.4);  */
 }
 
 .line-one {
@@ -37,7 +40,7 @@ body {
     right: 120px;
     width: 10px;
     height: 120px;
-    background-color: #000000;
+    background-color: var(--color);
 }
 
 .line-two {
@@ -46,25 +49,28 @@ body {
     right: -10px;
     width: 300px;
     height: 10px;
-    background-color: #000000;
+    background-color: var(--color);
 }
 
 .introduction__info-container {
     width: 400px;
     height: 500px;
     padding: 10px 40px;
+    border-left: 1px solid var(--color);
 }
 
 .introduction__header {
     font-size: 4rem;
     font-weight: 700;
     line-height: 1;
+    color: var(--color);
 }
 
 .introduction__header-title {
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
+    color: var(--color);
 }
 
 .introduction__description-title {
@@ -72,31 +78,37 @@ body {
     font: 300;
     text-transform: uppercase;
     margin: 50px 0 20px 0;
+    color: var(--color);
 }
 
 .introduction__description-text {
     font-size: 0.8rem;
+    color: var(--color);
 }
 
-.introduction .profile-photo {
+.profile-photo {
     width: 400px;
     height: 500px;
     object-fit: cover;
-    padding: 4px;
     border-radius: 2px 2px 2px 60px;
 }
-
-.introduction .icon {
-    width: 30px;
-    height: 30px;
+.profile-photo:hover {
+    border: 1px solid var(--background-color);
 }
 
-.introduction .social-icons {
-    border-bottom: 2px solid #000000;
-    width: 100px;
+.social-icons {
+    border-bottom: 2px solid var(--color);
+    width: 200px;
 }
 
-.introduction .icon:hover {
+.fa {
+    width: 50px;
+    height: 50px;
+    color: var(--color);
+    text-decoration: none;
+}
+
+.fa:hover {
     opacity: 0.5;
 }
 
@@ -104,11 +116,54 @@ body {
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 100px 0 20px 0;
+    margin: 100px 0 5px 0;
+    color: var(--color);
 }
 
 .contact__details {
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
+    color: var(--color);
+}
+
+.themes{
+    background-color: var(--background-color);
+    box-shadow: 0 5px 15px rgba(50,50,50,0.1);
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    border-radius: 0px 40px 0px 0px;
+    border: 1px solid var(--color);
+}
+.themes button{
+    height: 25px;
+    width: 25px;
+    border: 3px solid #dddddd;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn1{
+    background-color: #3498db;
+}
+.btn2{
+    background-color: #ff1756;
+}
+.btn3{
+    background-color: #1cb65d;
+}
+.btn4{
+    background-color: #8e44ad;
+}
+.btn5{
+    background-color: #f4b932;
+}
+.btn6{
+    background-color: #fff;
 }
