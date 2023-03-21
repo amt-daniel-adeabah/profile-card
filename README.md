@@ -1,4 +1,4 @@
-# about-me
+# Profile Card
 Building a profile card with themes and responsive interactions
 
 <p>use the command to upload to your local machine for free</p>
