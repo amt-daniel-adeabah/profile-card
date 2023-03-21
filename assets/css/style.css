@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    padding: 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Introduction */
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 70px;
+    height: auto;
+    margin: 75px;
+    /* border: 1px solid #000000;
+    box-shadow: 0 10px 10px rgba(0, 5, 24, 0.4); */
+}
+
+.line-one {
+    position: absolute;
+    top: -10px;
+    right: 120px;
+    width: 10px;
+    height: 120px;
+    background-color: #000000;
+}
+
+.line-two {
+    position: absolute;
+    bottom: 200px;
+    right: -10px;
+    width: 300px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.introduction__info-container {
+    width: 400px;
+    height: 500px;
+    padding: 10px 40px;
+}
+
+.introduction__header {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.introduction__header-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.introduction__description-title {
+    font-size: 1rem;
+    font: 300;
+    text-transform: uppercase;
+    margin: 50px 0 20px 0;
+}
+
+.introduction__description-text {
+    font-size: 0.8rem;
+}
+
+.introduction .profile-photo {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    padding: 4px;
+    border-radius: 2px 2px 2px 60px;
+}
+
+.introduction .icon {
+    width: 30px;
+    height: 30px;
+}
+
+.introduction .social-icons {
+    border-bottom: 2px solid #000000;
+    width: 100px;
+}
+
+.introduction .icon:hover {
+    opacity: 0.5;
+}
+
+.contact__header {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 100px 0 20px 0;
+}
+
+.contact__details {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
