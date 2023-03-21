@@ -1,2 +1,5 @@
 # about-me
-Building a personal website
+Building a profile card with themes and responsive interactions
+
+use the command to upload to your local machine for free
+<code>git clone https://github.com/danieladeabah/about-me.git</code>
