@@ -5,3 +5,7 @@ Building a profile card with themes and responsive interactions
 <code>git clone https://github.com/danieladeabah/about-me.git</code>
 
 <p><p>Connect me on my <a href="https://www.linkedin.com/in/danieladeabaa" title="Daniel Adeabah" target="_blank">LinkendIn</a></p></p>
+
+<p><p><p>
+Thank you
+</p></p></p>
