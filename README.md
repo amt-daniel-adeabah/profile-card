@@ -19,8 +19,8 @@ Building a profile card with themes and responsive interactions
 <code>- HTML5 </p>- CSS </p>- JAVASCRIPT</code>
 
 
-<p>use the command to upload to your local machine for free</p>
-<code>git clone https://github.com/danieladeabah/about-me.git</code>
+<p>git to local machine;</p>
+<code>git clone <repo-url></code>
 
 <p><p>Connect me on my <a href="https://www.linkedin.com/in/danieladeabaa" title="Daniel Adeabah" target="_blank">LinkendIn</a></p></p>
 
