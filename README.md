@@ -20,7 +20,7 @@ Building a profile card with themes and responsive interactions
 
 
 <p>git to local machine;</p>
-<code>git clone <repo-url></code>
+<code>git clone .repo-url.</code>
 
 <p><p>Connect me on my <a href="https://www.linkedin.com/in/danieladeabaa" title="Daniel Adeabah" target="_blank">LinkendIn</a></p></p>
 
