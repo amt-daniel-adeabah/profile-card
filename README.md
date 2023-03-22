@@ -2,7 +2,7 @@
 Building a profile card with themes and responsive interactions
 
 ## Screenshot
-<img src="./assets/ui/ui1.png" alt="Interface" width="100%" height="auto">
+<img src="./assets/images/ui1.png" alt="Interface" width="100%" height="auto">
 </p>
 <img src="./assets/images/ui2.png" alt="Interface" width="100%" height="auto">
 </p>
@@ -16,7 +16,7 @@ Building a profile card with themes and responsive interactions
 
 
 #### Languages 
-<code>- HTML5 </p>- CSS - JAVASCRIPT</code>
+<code>- HTML5 </p>- CSS </p>- JAVASCRIPT</code>
 
 
 <p>use the command to upload to your local machine for free</p>
